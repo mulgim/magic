@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Noto Serif KR", serif;
+  --font-display: "Cinzel", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-arcane-bg: #090B10;
+  --color-arcane-panel: #121622;
+  --color-arcane-border: #1E2538;
+  --color-arcane-gold: #D4AF37;
+  --color-arcane-gold-light: #F3E5AB;
+  --color-arcane-primary: #3B82F6;
+  --color-arcane-accent: #8B5CF6;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-arcane-bg);
+    color: #E2E8F0;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+  
+  /* Custom scrollbar for an arcane feel */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #090B10;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1E2538;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D4AF37;
+  }
+}

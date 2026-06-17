@@ -1,0 +1,6 @@
+{
+  "name": "아르카디아 마법학교",
+  "description": "아르카디아 마법학교의 세계관, 인물 설정 및 비밀스러운 기록을 보관하는 공식 아카이브 포털입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
