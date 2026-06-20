@@ -55,10 +55,10 @@ export default function SecretView() {
 
             <div className="space-y-2">
               <h3 className="text-lg font-serif font-extrabold text-slate-100">
-                1급 마력 격결 장막 (Classified Lock)
+                1급 마력 장막 (Classified Lock)
               </h3>
               <p className="text-xs text-slate-400 leading-relaxed font-light">
-                본 기록실은 최고 의회와 교장 유진의 직할 정신 결탁 장막입니다. 
+                본 기록실은 최고 의회와 교장 유진의 직할 정신 장막입니다. 
                 아르카디아 마법사 소집 인장이 가공되지 않은 자의 불법 무단 관람 시 기밀 기억 파기 처벌 조치가 시전됩니다.
               </p>
             </div>
@@ -112,7 +112,7 @@ export default function SecretView() {
             <div className="p-4 bg-emerald-500/10 border border-emerald-500/20 rounded-2xl flex items-center justify-between max-w-xl mx-auto">
               <span className="text-xs text-emerald-400 font-mono flex items-center gap-2">
                 <Unlock className="w-4 h-4 text-emerald-400" />
-                정신 장막 해제 완료: 지식의 문이 활짝 정비되었습니다.
+                정신 장막 해제 완료
               </span>
               <button
                 id="btn-relock-barrier"
@@ -170,12 +170,12 @@ export default function SecretView() {
                         <Eye className="w-5 h-5" />
                       </div>
                       <div>
-                        <h4 className="text-lg font-serif font-bold text-slate-100">유진의 구출 뒷이야기 (구세의 양면성)</h4>
+                        <h4 className="text-lg font-serif font-bold text-slate-100">유진의 레인 구출 뒷이야기</h4>
                         <p className="text-xs text-red-500/80 font-mono"> Eugene’s Silent Judgement</p>
                       </div>
                     </div>
                     <p className="text-sm text-slate-300 font-light leading-relaxed">
-                      과거 세상을 소름 돋게 뒤흔들던 최고의 흑마법사가 제임스와 리나(레인의 부모)를 습격하여 피의 난도질을 부릴 당시, 그 근역에서 마법을 연마하며 매복 중이던 교장 유진은 충분히 레인의 부모까지 결계에 들여보내 구해낼 수단이 있었습니다.
+                      과거 세상을 뒤흔들던 최고의 흑마법사가 제임스와 리나(레인의 부모)를 습격하여 피의 난도질을 부릴 당시, 그 근역에서 마법을 연마하며 매복 중이던 교장 유진은 충분히 레인의 부모까지 결계에 들여보내 구해낼 수단이 있었습니다.
                     </p>
                     <p className="text-sm text-slate-300 font-light leading-relaxed">
                       그러나 유진은 그들이 고교 시절부터 당신(User)을 중점적이고 가혹하게 괴롭혀온 악질 학폭 주동자들이라는 점, 성인이 된 후에도 자신의 딸만을 위해 온갖 불법 행위를 저질러왔던 것을 파악해둔 상태였습니다.
@@ -211,7 +211,7 @@ export default function SecretView() {
                       제임스(당시 에프레스 기숙사 소속)와 리나는 학창 시절 항상 짝을 지어 다니던 단짝이자, 학교의 폭군이었습니다. 그들의 주 희생양이자 표적은 바로 당신(User)이었습니다.
                     </p>
                     <p className="text-sm text-slate-300 font-light leading-relaxed">
-                      그들은 자기들만의 완벽한 동화 속에 갇혀 살았고, 그들에 대한 바깥의 평가는 철저히 메마르고 냉혹한 소시오패스적 가혹상이었습니다. 딸인 레인에게만큼은 완벽하게 헌신적이고 따뜻한 최고의 부모로 포장하며 사랑을 아끼지 않고 쏟아주었기에, 레인은 부모의 부도덕을 단 하나도 인지하지 못한 채 여전히 부모님을 존경하고 믿고 있습니다.
+                      그들은 자기들만의 완벽한 동화 속에 갇혀 살았고, 그들에 대한 바깥의 평가는 메마르고 냉혹한 소시오패스였습니다. 딸인 레인에게만큼은 완벽하게 헌신적이고 따뜻한 최고의 부모로 포장하며 사랑을 아끼지 않고 쏟아주었기에, 레인은 부모의 부도덕을 단 하나도 인지하지 못한 채 여전히 부모님을 존경하고 믿고 있습니다.
                     </p>
                   </motion.div>
                 )}
